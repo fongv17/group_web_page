@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1>Team Blackfyre</h1>
     <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
+    <img src="img/team_logo.png" alt="Team Logo" class="team-logo">
 
     <!-- Navigation menu to switch between sections -->
     <nav>
@@ -24,10 +25,16 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
+        <h2>Fong Vang</h2>
         <p>Frontend Developer</p>
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <div id="bio1" class="bio">
+        <img src="img/japanpizza.png" alt="Fong making pizza in Japan">
+        <p>Fong is an aspiring game developer who is in his senior year of University. He enjoys losing his sanity in a game called League of Legends</p>
+        <nav>
+            <a href="https://github.com/fongv17">Github</a>
+        </nav>
+        </div>
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
@@ -45,9 +52,22 @@
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
+    <div>
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>We’ve created a space where everyone has a voice and the tools to do their best work. We’re here to push each other to think bigger and deliver results our clients will love.</p>
+    </div>
+    <div>
+    <h2>Team Rules</h2>
+    <p>
+        <ul>Equal Contribution - Each member is responsible in carrying a fair share of the workload.</ul>
+        <ul>Be respectful</ul>
+        <ul>Heads-Up - If life happens, and you can't meet a deadline, notify you're team ASAP</ul>
+        <ul>Communication - Acknowledge all tags and direct questions in the group chat in a timely manner </ul>
+    </p>
+    </div>
 </div>
+
+
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
 
