@@ -7,13 +7,17 @@ body {
     padding: 0;
 }
 
+h1{
+    color: #ffffff
+}
+
 /* Header section styling */
 header {
     background: linear-gradient(
     135deg,
-    #212121,
+    #464646,
     #000000,
-    #202020
+    #001204
   );
   border-bottom: 4px solid #013c00;
     padding: 10px 0;
